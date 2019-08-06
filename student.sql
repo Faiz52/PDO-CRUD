@@ -33,15 +33,15 @@ CREATE TABLE `student` (
   `name` varchar(191) NOT NULL,
   `batch` varchar(191) NOT NULL,
   `email` varchar(191) NOT NULL,
-  `image` varchar(191) NOT NULL
+  `image` varchar(191) NOT NULL,
+  `is_deleted` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `student`
 --
 
-INSERT INTO `student` (`id`, `name`, `batch`, `email`, `image`) VALUES
-(1, 'Johndoe', 'ab-123', 'johndoe@gmail.com', 'Skull-Wings.png');
+
 
 --
 -- Indexes for dumped tables
